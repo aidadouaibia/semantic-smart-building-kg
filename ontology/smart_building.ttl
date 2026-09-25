@@ -1,0 +1,42 @@
+@prefix sb:   <http://smartbuilding.org#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartbuilding.org> a owl:Ontology .
+
+# Classes
+sb:Building       a owl:Class .
+sb:Room           a owl:Class .
+sb:Appliance      a owl:Class .
+sb:Sensor         a owl:Class .
+sb:Anomaly        a owl:Class .
+sb:Recommendation a owl:Class .
+
+# Object properties
+sb:hasRoom a owl:ObjectProperty ; rdfs:domain sb:Building ; rdfs:range sb:Room .
+sb:locatedIn a owl:ObjectProperty ; rdfs:domain sb:Appliance ; rdfs:range sb:Room .
+sb:hasAppliance a owl:ObjectProperty ; owl:inverseOf sb:locatedIn .
+sb:monitoredBy a owl:ObjectProperty ; rdfs:domain sb:Appliance ; rdfs:range sb:Sensor .
+sb:hasAnomaly a owl:ObjectProperty ; rdfs:domain sb:Appliance ; rdfs:range sb:Anomaly .
+sb:hasRecommendation a owl:ObjectProperty ; rdfs:domain sb:Anomaly ; rdfs:range sb:Recommendation .
+
+# Data properties
+sb:energyConsumption a owl:DatatypeProperty ; rdfs:domain sb:Appliance ; rdfs:range xsd:float .
+sb:trustScore a owl:DatatypeProperty ; rdfs:domain sb:Sensor ; rdfs:range xsd:float .
+sb:Measurement a owl:Class .
+sb:measures a owl:ObjectProperty ; rdfs:domain sb:Measurement ; rdfs:range sb:Appliance .
+sb:producedBy a owl:ObjectProperty ; rdfs:domain sb:Measurement ; rdfs:range sb:Sensor .
+sb:value a owl:DatatypeProperty ; rdfs:domain sb:Measurement ; rdfs:range xsd:float .
+sb:timestamp a owl:DatatypeProperty ; rdfs:domain sb:Measurement ; rdfs:range xsd:dateTime .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+sb:AnomalyEvent a owl:Class .
+sb:affects a owl:ObjectProperty ; rdfs:domain sb:AnomalyEvent ; rdfs:range sb:Appliance .
+sb:startTime a owl:DatatypeProperty ; rdfs:domain sb:AnomalyEvent ; rdfs:range xsd:dateTime .
+sb:endTime a owl:DatatypeProperty ; rdfs:domain sb:AnomalyEvent ; rdfs:range xsd:dateTime .
+sb:durationHours a owl:DatatypeProperty ; rdfs:domain sb:AnomalyEvent ; rdfs:range xsd:integer .
+sb:severity a owl:DatatypeProperty ; rdfs:domain sb:AnomalyEvent ; rdfs:range xsd:float .
+sb:confidence a owl:DatatypeProperty ; rdfs:domain sb:AnomalyEvent ; rdfs:range xsd:float .
+sb:status a owl:DatatypeProperty ; rdfs:domain sb:AnomalyEvent ; rdfs:range xsd:string .
+sb:recommendationText a owl:DatatypeProperty ; rdfs:domain sb:AnomalyEvent ; rdfs:range xsd:string .
+sb:computedTrust a owl:DatatypeProperty ; rdfs:domain sb:Sensor ; rdfs:range xsd:float .

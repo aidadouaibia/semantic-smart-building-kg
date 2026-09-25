@@ -1,0 +1,30 @@
+{
+  "real_anomalies": [
+    {
+      "appliance": "CoffeeMachine01",
+      "start": "2026-09-14T20:00:00",
+      "end": "2026-09-14T23:00:00"
+    },
+    {
+      "appliance": "Fridge01",
+      "start": "2026-09-15T06:00:00",
+      "end": "2026-09-15T11:00:00"
+    }
+  ],
+  "sensor_faults": [
+    "M_CoffeeMachine01_003",
+    "M_CoffeeMachine01_005",
+    "M_CoffeeMachine01_008",
+    "M_CoffeeMachine01_014",
+    "M_CoffeeMachine01_015",
+    "M_CoffeeMachine01_018",
+    "M_CoffeeMachine01_019",
+    "M_CoffeeMachine01_029",
+    "M_CoffeeMachine01_031",
+    "M_CoffeeMachine01_033",
+    "M_CoffeeMachine01_035",
+    "M_CoffeeMachine01_041",
+    "M_CoffeeMachine01_044",
+    "M_CoffeeMachine01_045"
+  ]
+}

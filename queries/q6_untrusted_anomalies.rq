@@ -1,0 +1,8 @@
+PREFIX sb: <http://smartbuilding.org#>
+SELECT ?appliance ?anomaly ?sensor ?score
+WHERE {
+  ?appliance sb:hasAnomaly ?anomaly ;
+             sb:monitoredBy ?sensor .
+  ?sensor sb:trustScore ?score .
+  FILTER(?score < 0.80)
+}

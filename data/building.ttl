@@ -1,0 +1,41 @@
+@prefix sb:  <http://smartbuilding.org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sb:Building1 a sb:Building ;
+    sb:hasRoom sb:Kitchen, sb:Office .
+
+sb:Kitchen a sb:Room .
+sb:Office  a sb:Room .
+
+sb:Fridge01 a sb:Appliance ;
+    sb:locatedIn sb:Kitchen ;
+    sb:monitoredBy sb:Sensor01 ;
+    sb:energyConsumption "450"^^xsd:float ;
+    sb:hasAnomaly sb:HighConsumption .
+
+sb:CoffeeMachine01 a sb:Appliance ;
+    sb:locatedIn sb:Kitchen ;
+    sb:monitoredBy sb:Sensor02 ;
+    sb:energyConsumption "120"^^xsd:float .
+
+sb:Computer01 a sb:Appliance ;
+    sb:locatedIn sb:Office ;
+    sb:monitoredBy sb:Sensor03 ;
+    sb:energyConsumption "310"^^xsd:float ;
+    sb:hasAnomaly sb:StandbyWaste .
+
+sb:Heater01 a sb:Appliance ;
+    sb:locatedIn sb:Office ;
+    sb:monitoredBy sb:Sensor03 ;
+    sb:energyConsumption "380"^^xsd:float .
+
+sb:Sensor01 a sb:Sensor ; sb:trustScore "0.92"^^xsd:float .
+sb:Sensor02 a sb:Sensor ; sb:trustScore "0.71"^^xsd:float .
+sb:Sensor03 a sb:Sensor ; sb:trustScore "0.95"^^xsd:float .
+
+sb:HighConsumption a sb:Anomaly ; sb:hasRecommendation sb:CheckCompressor .
+sb:StandbyWaste    a sb:Anomaly ; sb:hasRecommendation sb:ReduceStandby .
+
+sb:CheckCompressor a sb:Recommendation .
+sb:ReduceStandby   a sb:Recommendation .
+sb:CoffeeMachine01 sb:hasAnomaly sb:StandbyWaste .

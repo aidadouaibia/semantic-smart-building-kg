@@ -1,0 +1,9 @@
+| metric | naive | trust_aware |
+|---|---|---|
+| events_detected | 12 | 12 |
+| alerts_sent (confirmed) | 12 | 1 |
+| false_alarms | 10 | 0 |
+| precision | 0.17 | 1.0 |
+| real_anomalies_alerted | 2/2 | 1/2 |
+| deferred_for_verification | 0 | 11 |
+| real_events_deferred | 0 | 1 |

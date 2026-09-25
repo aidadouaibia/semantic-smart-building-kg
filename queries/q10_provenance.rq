@@ -1,0 +1,9 @@
+PREFIX sb: <http://smartbuilding.org#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?event ?sensor ?agent ?staticTrust ?computedTrust
+WHERE {
+  ?event a sb:AnomalyEvent ; prov:wasDerivedFrom ?sensor ; prov:wasAttributedTo ?agent .
+  ?sensor sb:trustScore ?staticTrust ; sb:computedTrust ?computedTrust .
+  FILTER(?computedTrust < 0.8)
+}
+LIMIT 5

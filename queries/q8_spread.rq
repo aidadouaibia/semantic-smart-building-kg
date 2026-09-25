@@ -1,0 +1,7 @@
+PREFIX sb: <http://smartbuilding.org#>
+SELECT ?appliance ?sensor (ROUND(100 * (MAX(?v) - MIN(?v)) / AVG(?v)) AS ?spreadPct)
+WHERE {
+  ?m a sb:Measurement ; sb:measures ?appliance ; sb:producedBy ?sensor ; sb:value ?v .
+}
+GROUP BY ?appliance ?sensor
+ORDER BY DESC(?spreadPct)

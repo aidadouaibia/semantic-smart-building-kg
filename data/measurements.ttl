@@ -1,0 +1,1155 @@
+@prefix sb: <http://smartbuilding.org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sb:M_CoffeeMachine01_000 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T00:00:00"^^xsd:dateTime ;
+    sb:value "140.6"^^xsd:float .
+
+sb:M_CoffeeMachine01_001 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T01:00:00"^^xsd:dateTime ;
+    sb:value "141.3"^^xsd:float .
+
+sb:M_CoffeeMachine01_002 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T02:00:00"^^xsd:dateTime ;
+    sb:value "147.4"^^xsd:float .
+
+sb:M_CoffeeMachine01_003 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T03:00:00"^^xsd:dateTime ;
+    sb:value "0.0"^^xsd:float .
+
+sb:M_CoffeeMachine01_004 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T04:00:00"^^xsd:dateTime ;
+    sb:value "159.2"^^xsd:float .
+
+sb:M_CoffeeMachine01_005 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T05:00:00"^^xsd:dateTime ;
+    sb:value "0.0"^^xsd:float .
+
+sb:M_CoffeeMachine01_006 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T06:00:00"^^xsd:dateTime ;
+    sb:value "167.0"^^xsd:float .
+
+sb:M_CoffeeMachine01_007 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T07:00:00"^^xsd:dateTime ;
+    sb:value "172.2"^^xsd:float .
+
+sb:M_CoffeeMachine01_008 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T08:00:00"^^xsd:dateTime ;
+    sb:value "494.6"^^xsd:float .
+
+sb:M_CoffeeMachine01_009 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T09:00:00"^^xsd:dateTime ;
+    sb:value "182.1"^^xsd:float .
+
+sb:M_CoffeeMachine01_010 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T10:00:00"^^xsd:dateTime ;
+    sb:value "193.7"^^xsd:float .
+
+sb:M_CoffeeMachine01_011 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T11:00:00"^^xsd:dateTime ;
+    sb:value "176.4"^^xsd:float .
+
+sb:M_CoffeeMachine01_012 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T12:00:00"^^xsd:dateTime ;
+    sb:value "198.0"^^xsd:float .
+
+sb:M_CoffeeMachine01_013 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T13:00:00"^^xsd:dateTime ;
+    sb:value "179.2"^^xsd:float .
+
+sb:M_CoffeeMachine01_014 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T14:00:00"^^xsd:dateTime ;
+    sb:value "539.6"^^xsd:float .
+
+sb:M_CoffeeMachine01_015 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T15:00:00"^^xsd:dateTime ;
+    sb:value "559.7"^^xsd:float .
+
+sb:M_CoffeeMachine01_016 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T16:00:00"^^xsd:dateTime ;
+    sb:value "173.5"^^xsd:float .
+
+sb:M_CoffeeMachine01_017 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T17:00:00"^^xsd:dateTime ;
+    sb:value "166.9"^^xsd:float .
+
+sb:M_CoffeeMachine01_018 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T18:00:00"^^xsd:dateTime ;
+    sb:value "0.0"^^xsd:float .
+
+sb:M_CoffeeMachine01_019 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T19:00:00"^^xsd:dateTime ;
+    sb:value "0.0"^^xsd:float .
+
+sb:M_CoffeeMachine01_020 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T20:00:00"^^xsd:dateTime ;
+    sb:value "412.9"^^xsd:float .
+
+sb:M_CoffeeMachine01_021 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T21:00:00"^^xsd:dateTime ;
+    sb:value "370.7"^^xsd:float .
+
+sb:M_CoffeeMachine01_022 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T22:00:00"^^xsd:dateTime ;
+    sb:value "363.1"^^xsd:float .
+
+sb:M_CoffeeMachine01_023 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-14T23:00:00"^^xsd:dateTime ;
+    sb:value "360.8"^^xsd:float .
+
+sb:M_CoffeeMachine01_024 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T00:00:00"^^xsd:dateTime ;
+    sb:value "146.1"^^xsd:float .
+
+sb:M_CoffeeMachine01_025 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T01:00:00"^^xsd:dateTime ;
+    sb:value "138.2"^^xsd:float .
+
+sb:M_CoffeeMachine01_026 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T02:00:00"^^xsd:dateTime ;
+    sb:value "144.5"^^xsd:float .
+
+sb:M_CoffeeMachine01_027 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T03:00:00"^^xsd:dateTime ;
+    sb:value "154.6"^^xsd:float .
+
+sb:M_CoffeeMachine01_028 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T04:00:00"^^xsd:dateTime ;
+    sb:value "149.8"^^xsd:float .
+
+sb:M_CoffeeMachine01_029 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T05:00:00"^^xsd:dateTime ;
+    sb:value "420.4"^^xsd:float .
+
+sb:M_CoffeeMachine01_030 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T06:00:00"^^xsd:dateTime ;
+    sb:value "175.7"^^xsd:float .
+
+sb:M_CoffeeMachine01_031 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T07:00:00"^^xsd:dateTime ;
+    sb:value "555.7"^^xsd:float .
+
+sb:M_CoffeeMachine01_032 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T08:00:00"^^xsd:dateTime ;
+    sb:value "190.2"^^xsd:float .
+
+sb:M_CoffeeMachine01_033 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T09:00:00"^^xsd:dateTime ;
+    sb:value "659.2"^^xsd:float .
+
+sb:M_CoffeeMachine01_034 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T10:00:00"^^xsd:dateTime ;
+    sb:value "183.5"^^xsd:float .
+
+sb:M_CoffeeMachine01_035 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T11:00:00"^^xsd:dateTime ;
+    sb:value "567.5"^^xsd:float .
+
+sb:M_CoffeeMachine01_036 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T12:00:00"^^xsd:dateTime ;
+    sb:value "168.9"^^xsd:float .
+
+sb:M_CoffeeMachine01_037 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T13:00:00"^^xsd:dateTime ;
+    sb:value "197.6"^^xsd:float .
+
+sb:M_CoffeeMachine01_038 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T14:00:00"^^xsd:dateTime ;
+    sb:value "204.6"^^xsd:float .
+
+sb:M_CoffeeMachine01_039 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T15:00:00"^^xsd:dateTime ;
+    sb:value "174.6"^^xsd:float .
+
+sb:M_CoffeeMachine01_040 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T16:00:00"^^xsd:dateTime ;
+    sb:value "180.0"^^xsd:float .
+
+sb:M_CoffeeMachine01_041 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T17:00:00"^^xsd:dateTime ;
+    sb:value "484.9"^^xsd:float .
+
+sb:M_CoffeeMachine01_042 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T18:00:00"^^xsd:dateTime ;
+    sb:value "185.7"^^xsd:float .
+
+sb:M_CoffeeMachine01_043 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T19:00:00"^^xsd:dateTime ;
+    sb:value "162.4"^^xsd:float .
+
+sb:M_CoffeeMachine01_044 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T20:00:00"^^xsd:dateTime ;
+    sb:value "541.3"^^xsd:float .
+
+sb:M_CoffeeMachine01_045 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T21:00:00"^^xsd:dateTime ;
+    sb:value "496.9"^^xsd:float .
+
+sb:M_CoffeeMachine01_046 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T22:00:00"^^xsd:dateTime ;
+    sb:value "145.4"^^xsd:float .
+
+sb:M_CoffeeMachine01_047 a sb:Measurement ;
+    sb:measures sb:CoffeeMachine01 ;
+    sb:producedBy sb:Sensor02 ;
+    sb:timestamp "2026-09-15T23:00:00"^^xsd:dateTime ;
+    sb:value "138.8"^^xsd:float .
+
+sb:M_Computer01_000 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T00:00:00"^^xsd:dateTime ;
+    sb:value "354.8"^^xsd:float .
+
+sb:M_Computer01_001 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T01:00:00"^^xsd:dateTime ;
+    sb:value "374.1"^^xsd:float .
+
+sb:M_Computer01_002 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T02:00:00"^^xsd:dateTime ;
+    sb:value "401.7"^^xsd:float .
+
+sb:M_Computer01_003 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T03:00:00"^^xsd:dateTime ;
+    sb:value "384.0"^^xsd:float .
+
+sb:M_Computer01_004 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T04:00:00"^^xsd:dateTime ;
+    sb:value "384.3"^^xsd:float .
+
+sb:M_Computer01_005 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T05:00:00"^^xsd:dateTime ;
+    sb:value "437.3"^^xsd:float .
+
+sb:M_Computer01_006 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T06:00:00"^^xsd:dateTime ;
+    sb:value "436.7"^^xsd:float .
+
+sb:M_Computer01_007 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T07:00:00"^^xsd:dateTime ;
+    sb:value "495.4"^^xsd:float .
+
+sb:M_Computer01_008 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T08:00:00"^^xsd:dateTime ;
+    sb:value "465.6"^^xsd:float .
+
+sb:M_Computer01_009 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T09:00:00"^^xsd:dateTime ;
+    sb:value "488.6"^^xsd:float .
+
+sb:M_Computer01_010 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T10:00:00"^^xsd:dateTime ;
+    sb:value "492.1"^^xsd:float .
+
+sb:M_Computer01_011 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T11:00:00"^^xsd:dateTime ;
+    sb:value "478.0"^^xsd:float .
+
+sb:M_Computer01_012 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T12:00:00"^^xsd:dateTime ;
+    sb:value "490.3"^^xsd:float .
+
+sb:M_Computer01_013 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T13:00:00"^^xsd:dateTime ;
+    sb:value "456.4"^^xsd:float .
+
+sb:M_Computer01_014 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T14:00:00"^^xsd:dateTime ;
+    sb:value "498.4"^^xsd:float .
+
+sb:M_Computer01_015 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T15:00:00"^^xsd:dateTime ;
+    sb:value "462.5"^^xsd:float .
+
+sb:M_Computer01_016 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T16:00:00"^^xsd:dateTime ;
+    sb:value "462.9"^^xsd:float .
+
+sb:M_Computer01_017 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T17:00:00"^^xsd:dateTime ;
+    sb:value "497.9"^^xsd:float .
+
+sb:M_Computer01_018 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T18:00:00"^^xsd:dateTime ;
+    sb:value "471.5"^^xsd:float .
+
+sb:M_Computer01_019 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T19:00:00"^^xsd:dateTime ;
+    sb:value "413.7"^^xsd:float .
+
+sb:M_Computer01_020 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T20:00:00"^^xsd:dateTime ;
+    sb:value "384.5"^^xsd:float .
+
+sb:M_Computer01_021 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T21:00:00"^^xsd:dateTime ;
+    sb:value "386.1"^^xsd:float .
+
+sb:M_Computer01_022 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T22:00:00"^^xsd:dateTime ;
+    sb:value "371.5"^^xsd:float .
+
+sb:M_Computer01_023 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T23:00:00"^^xsd:dateTime ;
+    sb:value "400.3"^^xsd:float .
+
+sb:M_Computer01_024 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T00:00:00"^^xsd:dateTime ;
+    sb:value "338.6"^^xsd:float .
+
+sb:M_Computer01_025 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T01:00:00"^^xsd:dateTime ;
+    sb:value "358.1"^^xsd:float .
+
+sb:M_Computer01_026 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T02:00:00"^^xsd:dateTime ;
+    sb:value "344.6"^^xsd:float .
+
+sb:M_Computer01_027 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T03:00:00"^^xsd:dateTime ;
+    sb:value "376.5"^^xsd:float .
+
+sb:M_Computer01_028 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T04:00:00"^^xsd:dateTime ;
+    sb:value "426.1"^^xsd:float .
+
+sb:M_Computer01_029 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T05:00:00"^^xsd:dateTime ;
+    sb:value "457.8"^^xsd:float .
+
+sb:M_Computer01_030 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T06:00:00"^^xsd:dateTime ;
+    sb:value "431.6"^^xsd:float .
+
+sb:M_Computer01_031 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T07:00:00"^^xsd:dateTime ;
+    sb:value "458.5"^^xsd:float .
+
+sb:M_Computer01_032 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T08:00:00"^^xsd:dateTime ;
+    sb:value "436.1"^^xsd:float .
+
+sb:M_Computer01_033 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T09:00:00"^^xsd:dateTime ;
+    sb:value "491.5"^^xsd:float .
+
+sb:M_Computer01_034 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T10:00:00"^^xsd:dateTime ;
+    sb:value "488.2"^^xsd:float .
+
+sb:M_Computer01_035 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T11:00:00"^^xsd:dateTime ;
+    sb:value "517.6"^^xsd:float .
+
+sb:M_Computer01_036 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T12:00:00"^^xsd:dateTime ;
+    sb:value "519.8"^^xsd:float .
+
+sb:M_Computer01_037 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T13:00:00"^^xsd:dateTime ;
+    sb:value "505.0"^^xsd:float .
+
+sb:M_Computer01_038 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T14:00:00"^^xsd:dateTime ;
+    sb:value "481.1"^^xsd:float .
+
+sb:M_Computer01_039 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T15:00:00"^^xsd:dateTime ;
+    sb:value "531.4"^^xsd:float .
+
+sb:M_Computer01_040 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T16:00:00"^^xsd:dateTime ;
+    sb:value "481.0"^^xsd:float .
+
+sb:M_Computer01_041 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T17:00:00"^^xsd:dateTime ;
+    sb:value "417.1"^^xsd:float .
+
+sb:M_Computer01_042 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T18:00:00"^^xsd:dateTime ;
+    sb:value "438.0"^^xsd:float .
+
+sb:M_Computer01_043 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T19:00:00"^^xsd:dateTime ;
+    sb:value "397.9"^^xsd:float .
+
+sb:M_Computer01_044 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T20:00:00"^^xsd:dateTime ;
+    sb:value "418.0"^^xsd:float .
+
+sb:M_Computer01_045 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T21:00:00"^^xsd:dateTime ;
+    sb:value "400.1"^^xsd:float .
+
+sb:M_Computer01_046 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T22:00:00"^^xsd:dateTime ;
+    sb:value "364.9"^^xsd:float .
+
+sb:M_Computer01_047 a sb:Measurement ;
+    sb:measures sb:Computer01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T23:00:00"^^xsd:dateTime ;
+    sb:value "357.4"^^xsd:float .
+
+sb:M_Fridge01_000 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T00:00:00"^^xsd:dateTime ;
+    sb:value "512.3"^^xsd:float .
+
+sb:M_Fridge01_001 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T01:00:00"^^xsd:dateTime ;
+    sb:value "544.4"^^xsd:float .
+
+sb:M_Fridge01_002 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T02:00:00"^^xsd:dateTime ;
+    sb:value "541.9"^^xsd:float .
+
+sb:M_Fridge01_003 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T03:00:00"^^xsd:dateTime ;
+    sb:value "523.4"^^xsd:float .
+
+sb:M_Fridge01_004 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T04:00:00"^^xsd:dateTime ;
+    sb:value "608.0"^^xsd:float .
+
+sb:M_Fridge01_005 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T05:00:00"^^xsd:dateTime ;
+    sb:value "579.3"^^xsd:float .
+
+sb:M_Fridge01_006 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T06:00:00"^^xsd:dateTime ;
+    sb:value "601.0"^^xsd:float .
+
+sb:M_Fridge01_007 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T07:00:00"^^xsd:dateTime ;
+    sb:value "714.2"^^xsd:float .
+
+sb:M_Fridge01_008 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T08:00:00"^^xsd:dateTime ;
+    sb:value "671.9"^^xsd:float .
+
+sb:M_Fridge01_009 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T09:00:00"^^xsd:dateTime ;
+    sb:value "707.4"^^xsd:float .
+
+sb:M_Fridge01_010 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T10:00:00"^^xsd:dateTime ;
+    sb:value "752.1"^^xsd:float .
+
+sb:M_Fridge01_011 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T11:00:00"^^xsd:dateTime ;
+    sb:value "783.6"^^xsd:float .
+
+sb:M_Fridge01_012 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T12:00:00"^^xsd:dateTime ;
+    sb:value "776.7"^^xsd:float .
+
+sb:M_Fridge01_013 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T13:00:00"^^xsd:dateTime ;
+    sb:value "724.6"^^xsd:float .
+
+sb:M_Fridge01_014 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T14:00:00"^^xsd:dateTime ;
+    sb:value "716.6"^^xsd:float .
+
+sb:M_Fridge01_015 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T15:00:00"^^xsd:dateTime ;
+    sb:value "666.0"^^xsd:float .
+
+sb:M_Fridge01_016 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T16:00:00"^^xsd:dateTime ;
+    sb:value "682.5"^^xsd:float .
+
+sb:M_Fridge01_017 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T17:00:00"^^xsd:dateTime ;
+    sb:value "708.2"^^xsd:float .
+
+sb:M_Fridge01_018 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T18:00:00"^^xsd:dateTime ;
+    sb:value "645.2"^^xsd:float .
+
+sb:M_Fridge01_019 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T19:00:00"^^xsd:dateTime ;
+    sb:value "603.7"^^xsd:float .
+
+sb:M_Fridge01_020 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T20:00:00"^^xsd:dateTime ;
+    sb:value "559.7"^^xsd:float .
+
+sb:M_Fridge01_021 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T21:00:00"^^xsd:dateTime ;
+    sb:value "536.8"^^xsd:float .
+
+sb:M_Fridge01_022 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T22:00:00"^^xsd:dateTime ;
+    sb:value "560.6"^^xsd:float .
+
+sb:M_Fridge01_023 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-14T23:00:00"^^xsd:dateTime ;
+    sb:value "531.3"^^xsd:float .
+
+sb:M_Fridge01_024 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T00:00:00"^^xsd:dateTime ;
+    sb:value "528.2"^^xsd:float .
+
+sb:M_Fridge01_025 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T01:00:00"^^xsd:dateTime ;
+    sb:value "511.5"^^xsd:float .
+
+sb:M_Fridge01_026 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T02:00:00"^^xsd:dateTime ;
+    sb:value "542.5"^^xsd:float .
+
+sb:M_Fridge01_027 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T03:00:00"^^xsd:dateTime ;
+    sb:value "602.6"^^xsd:float .
+
+sb:M_Fridge01_028 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T04:00:00"^^xsd:dateTime ;
+    sb:value "575.9"^^xsd:float .
+
+sb:M_Fridge01_029 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T05:00:00"^^xsd:dateTime ;
+    sb:value "556.0"^^xsd:float .
+
+sb:M_Fridge01_030 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T06:00:00"^^xsd:dateTime ;
+    sb:value "1082.3"^^xsd:float .
+
+sb:M_Fridge01_031 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T07:00:00"^^xsd:dateTime ;
+    sb:value "1273.1"^^xsd:float .
+
+sb:M_Fridge01_032 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T08:00:00"^^xsd:dateTime ;
+    sb:value "1168.0"^^xsd:float .
+
+sb:M_Fridge01_033 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T09:00:00"^^xsd:dateTime ;
+    sb:value "1274.3"^^xsd:float .
+
+sb:M_Fridge01_034 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T10:00:00"^^xsd:dateTime ;
+    sb:value "1343.1"^^xsd:float .
+
+sb:M_Fridge01_035 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T11:00:00"^^xsd:dateTime ;
+    sb:value "1236.9"^^xsd:float .
+
+sb:M_Fridge01_036 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T12:00:00"^^xsd:dateTime ;
+    sb:value "675.9"^^xsd:float .
+
+sb:M_Fridge01_037 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T13:00:00"^^xsd:dateTime ;
+    sb:value "735.7"^^xsd:float .
+
+sb:M_Fridge01_038 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T14:00:00"^^xsd:dateTime ;
+    sb:value "631.3"^^xsd:float .
+
+sb:M_Fridge01_039 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T15:00:00"^^xsd:dateTime ;
+    sb:value "703.8"^^xsd:float .
+
+sb:M_Fridge01_040 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T16:00:00"^^xsd:dateTime ;
+    sb:value "651.5"^^xsd:float .
+
+sb:M_Fridge01_041 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T17:00:00"^^xsd:dateTime ;
+    sb:value "627.5"^^xsd:float .
+
+sb:M_Fridge01_042 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T18:00:00"^^xsd:dateTime ;
+    sb:value "627.2"^^xsd:float .
+
+sb:M_Fridge01_043 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T19:00:00"^^xsd:dateTime ;
+    sb:value "607.1"^^xsd:float .
+
+sb:M_Fridge01_044 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T20:00:00"^^xsd:dateTime ;
+    sb:value "543.1"^^xsd:float .
+
+sb:M_Fridge01_045 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T21:00:00"^^xsd:dateTime ;
+    sb:value "578.9"^^xsd:float .
+
+sb:M_Fridge01_046 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T22:00:00"^^xsd:dateTime ;
+    sb:value "542.2"^^xsd:float .
+
+sb:M_Fridge01_047 a sb:Measurement ;
+    sb:measures sb:Fridge01 ;
+    sb:producedBy sb:Sensor01 ;
+    sb:timestamp "2026-09-15T23:00:00"^^xsd:dateTime ;
+    sb:value "532.1"^^xsd:float .
+
+sb:M_Heater01_000 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T00:00:00"^^xsd:dateTime ;
+    sb:value "474.0"^^xsd:float .
+
+sb:M_Heater01_001 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T01:00:00"^^xsd:dateTime ;
+    sb:value "502.1"^^xsd:float .
+
+sb:M_Heater01_002 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T02:00:00"^^xsd:dateTime ;
+    sb:value "419.5"^^xsd:float .
+
+sb:M_Heater01_003 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T03:00:00"^^xsd:dateTime ;
+    sb:value "483.3"^^xsd:float .
+
+sb:M_Heater01_004 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T04:00:00"^^xsd:dateTime ;
+    sb:value "514.3"^^xsd:float .
+
+sb:M_Heater01_005 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T05:00:00"^^xsd:dateTime ;
+    sb:value "485.3"^^xsd:float .
+
+sb:M_Heater01_006 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T06:00:00"^^xsd:dateTime ;
+    sb:value "562.5"^^xsd:float .
+
+sb:M_Heater01_007 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T07:00:00"^^xsd:dateTime ;
+    sb:value "521.0"^^xsd:float .
+
+sb:M_Heater01_008 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T08:00:00"^^xsd:dateTime ;
+    sb:value "570.8"^^xsd:float .
+
+sb:M_Heater01_009 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T09:00:00"^^xsd:dateTime ;
+    sb:value "548.5"^^xsd:float .
+
+sb:M_Heater01_010 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T10:00:00"^^xsd:dateTime ;
+    sb:value "592.8"^^xsd:float .
+
+sb:M_Heater01_011 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T11:00:00"^^xsd:dateTime ;
+    sb:value "630.5"^^xsd:float .
+
+sb:M_Heater01_012 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T12:00:00"^^xsd:dateTime ;
+    sb:value "604.0"^^xsd:float .
+
+sb:M_Heater01_013 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T13:00:00"^^xsd:dateTime ;
+    sb:value "593.6"^^xsd:float .
+
+sb:M_Heater01_014 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T14:00:00"^^xsd:dateTime ;
+    sb:value "539.6"^^xsd:float .
+
+sb:M_Heater01_015 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T15:00:00"^^xsd:dateTime ;
+    sb:value "614.2"^^xsd:float .
+
+sb:M_Heater01_016 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T16:00:00"^^xsd:dateTime ;
+    sb:value "565.1"^^xsd:float .
+
+sb:M_Heater01_017 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T17:00:00"^^xsd:dateTime ;
+    sb:value "550.3"^^xsd:float .
+
+sb:M_Heater01_018 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T18:00:00"^^xsd:dateTime ;
+    sb:value "489.5"^^xsd:float .
+
+sb:M_Heater01_019 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T19:00:00"^^xsd:dateTime ;
+    sb:value "527.8"^^xsd:float .
+
+sb:M_Heater01_020 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T20:00:00"^^xsd:dateTime ;
+    sb:value "482.7"^^xsd:float .
+
+sb:M_Heater01_021 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T21:00:00"^^xsd:dateTime ;
+    sb:value "474.0"^^xsd:float .
+
+sb:M_Heater01_022 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T22:00:00"^^xsd:dateTime ;
+    sb:value "447.5"^^xsd:float .
+
+sb:M_Heater01_023 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-14T23:00:00"^^xsd:dateTime ;
+    sb:value "453.7"^^xsd:float .
+
+sb:M_Heater01_024 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T00:00:00"^^xsd:dateTime ;
+    sb:value "480.3"^^xsd:float .
+
+sb:M_Heater01_025 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T01:00:00"^^xsd:dateTime ;
+    sb:value "456.8"^^xsd:float .
+
+sb:M_Heater01_026 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T02:00:00"^^xsd:dateTime ;
+    sb:value "464.1"^^xsd:float .
+
+sb:M_Heater01_027 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T03:00:00"^^xsd:dateTime ;
+    sb:value "492.2"^^xsd:float .
+
+sb:M_Heater01_028 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T04:00:00"^^xsd:dateTime ;
+    sb:value "488.1"^^xsd:float .
+
+sb:M_Heater01_029 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T05:00:00"^^xsd:dateTime ;
+    sb:value "517.8"^^xsd:float .
+
+sb:M_Heater01_030 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T06:00:00"^^xsd:dateTime ;
+    sb:value "500.8"^^xsd:float .
+
+sb:M_Heater01_031 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T07:00:00"^^xsd:dateTime ;
+    sb:value "509.6"^^xsd:float .
+
+sb:M_Heater01_032 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T08:00:00"^^xsd:dateTime ;
+    sb:value "583.5"^^xsd:float .
+
+sb:M_Heater01_033 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T09:00:00"^^xsd:dateTime ;
+    sb:value "585.9"^^xsd:float .
+
+sb:M_Heater01_034 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T10:00:00"^^xsd:dateTime ;
+    sb:value "580.5"^^xsd:float .
+
+sb:M_Heater01_035 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T11:00:00"^^xsd:dateTime ;
+    sb:value "555.3"^^xsd:float .
+
+sb:M_Heater01_036 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T12:00:00"^^xsd:dateTime ;
+    sb:value "640.1"^^xsd:float .
+
+sb:M_Heater01_037 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T13:00:00"^^xsd:dateTime ;
+    sb:value "533.4"^^xsd:float .
+
+sb:M_Heater01_038 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T14:00:00"^^xsd:dateTime ;
+    sb:value "625.3"^^xsd:float .
+
+sb:M_Heater01_039 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T15:00:00"^^xsd:dateTime ;
+    sb:value "576.1"^^xsd:float .
+
+sb:M_Heater01_040 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T16:00:00"^^xsd:dateTime ;
+    sb:value "606.5"^^xsd:float .
+
+sb:M_Heater01_041 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T17:00:00"^^xsd:dateTime ;
+    sb:value "576.4"^^xsd:float .
+
+sb:M_Heater01_042 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T18:00:00"^^xsd:dateTime ;
+    sb:value "532.7"^^xsd:float .
+
+sb:M_Heater01_043 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T19:00:00"^^xsd:dateTime ;
+    sb:value "484.4"^^xsd:float .
+
+sb:M_Heater01_044 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T20:00:00"^^xsd:dateTime ;
+    sb:value "514.8"^^xsd:float .
+
+sb:M_Heater01_045 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T21:00:00"^^xsd:dateTime ;
+    sb:value "436.3"^^xsd:float .
+
+sb:M_Heater01_046 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T22:00:00"^^xsd:dateTime ;
+    sb:value "452.7"^^xsd:float .
+
+sb:M_Heater01_047 a sb:Measurement ;
+    sb:measures sb:Heater01 ;
+    sb:producedBy sb:Sensor03 ;
+    sb:timestamp "2026-09-15T23:00:00"^^xsd:dateTime ;
+    sb:value "428.0"^^xsd:float .
+

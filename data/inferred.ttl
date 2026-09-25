@@ -1,0 +1,165 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sb: <http://smartbuilding.org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sb:Event_CoffeeMachine01_000 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 1 ;
+    sb:endTime "2026-09-14T03:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "0.0"^^xsd:float ;
+    sb:startTime "2026-09-14T03:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_001 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 1 ;
+    sb:endTime "2026-09-14T05:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "0.0"^^xsd:float ;
+    sb:startTime "2026-09-14T05:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_002 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 1 ;
+    sb:endTime "2026-09-14T08:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "2.78"^^xsd:float ;
+    sb:startTime "2026-09-14T08:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_003 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 2 ;
+    sb:endTime "2026-09-14T15:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "3.09"^^xsd:float ;
+    sb:startTime "2026-09-14T14:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_004 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 6 ;
+    sb:endTime "2026-09-14T23:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "1.41"^^xsd:float ;
+    sb:startTime "2026-09-14T18:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_005 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 1 ;
+    sb:endTime "2026-09-15T05:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "2.36"^^xsd:float ;
+    sb:startTime "2026-09-15T05:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_006 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 1 ;
+    sb:endTime "2026-09-15T07:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "3.13"^^xsd:float ;
+    sb:startTime "2026-09-15T07:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_007 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 1 ;
+    sb:endTime "2026-09-15T09:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "3.71"^^xsd:float ;
+    sb:startTime "2026-09-15T09:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_008 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 1 ;
+    sb:endTime "2026-09-15T11:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "3.19"^^xsd:float ;
+    sb:startTime "2026-09-15T11:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_009 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 1 ;
+    sb:endTime "2026-09-15T17:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "2.73"^^xsd:float ;
+    sb:startTime "2026-09-15T17:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_CoffeeMachine01_010 a sb:AnomalyEvent ;
+    sb:affects sb:CoffeeMachine01 ;
+    sb:confidence "0.5"^^xsd:float ;
+    sb:durationHours 2 ;
+    sb:endTime "2026-09-15T21:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Verify sensor Sensor02 (low trust) before any action on CoffeeMachine01." ;
+    sb:severity "2.92"^^xsd:float ;
+    sb:startTime "2026-09-15T20:00:00"^^xsd:dateTime ;
+    sb:status "pending_verification" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor02 .
+
+sb:Event_Fridge01_011 a sb:AnomalyEvent ;
+    sb:affects sb:Fridge01 ;
+    sb:confidence "1.0"^^xsd:float ;
+    sb:durationHours 6 ;
+    sb:endTime "2026-09-15T11:00:00"^^xsd:dateTime ;
+    sb:recommendationText "Sustained over-consumption on Fridge01: schedule an inspection." ;
+    sb:severity "1.96"^^xsd:float ;
+    sb:startTime "2026-09-15T06:00:00"^^xsd:dateTime ;
+    sb:status "confirmed" ;
+    prov:wasAttributedTo sb:DetectorAgent ;
+    prov:wasDerivedFrom sb:Sensor01 .
+
+sb:Orchestrator a prov:SoftwareAgent .
+
+sb:RecommenderAgent a prov:SoftwareAgent .
+
+sb:Sensor03 sb:computedTrust "1.0"^^xsd:float ;
+    prov:wasAttributedTo sb:TrustAgent .
+
+sb:Sensor01 sb:computedTrust "1.0"^^xsd:float ;
+    prov:wasAttributedTo sb:TrustAgent .
+
+sb:TrustAgent a prov:SoftwareAgent .
+
+sb:Sensor02 sb:computedTrust "0.5"^^xsd:float ;
+    prov:wasAttributedTo sb:TrustAgent .
+
+sb:DetectorAgent a prov:SoftwareAgent .
+

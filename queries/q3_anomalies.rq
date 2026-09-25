@@ -1,0 +1,6 @@
+PREFIX sb: <http://smartbuilding.org#>
+SELECT ?appliance ?anomaly ?recommendation
+WHERE {
+  ?appliance sb:hasAnomaly ?anomaly .
+  OPTIONAL { ?anomaly sb:hasRecommendation ?recommendation . }
+}

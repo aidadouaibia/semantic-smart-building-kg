@@ -1,0 +1,7 @@
+PREFIX sb: <http://smartbuilding.org#>
+SELECT ?appliance ?status ?confidence ?recommendation
+WHERE {
+  ?e a sb:AnomalyEvent ; sb:affects ?appliance ; sb:status ?status ;
+     sb:confidence ?confidence ; sb:recommendationText ?recommendation .
+}
+ORDER BY ?status ?appliance

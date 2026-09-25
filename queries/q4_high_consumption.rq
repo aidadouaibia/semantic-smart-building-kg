@@ -1,0 +1,7 @@
+PREFIX sb: <http://smartbuilding.org#>
+SELECT ?appliance ?energy
+WHERE {
+  ?appliance sb:energyConsumption ?energy .
+  FILTER(?energy > 300)
+}
+ORDER BY DESC(?energy)

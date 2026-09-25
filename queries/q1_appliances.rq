@@ -1,0 +1,2 @@
+PREFIX sb: <http://smartbuilding.org#>
+SELECT ?appliance WHERE { ?appliance a sb:Appliance . }

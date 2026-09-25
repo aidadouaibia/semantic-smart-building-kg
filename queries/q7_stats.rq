@@ -1,0 +1,7 @@
+PREFIX sb: <http://smartbuilding.org#>
+SELECT ?appliance ?sensor (COUNT(?m) AS ?n) (ROUND(AVG(?v)) AS ?avgWh) (MAX(?v) AS ?maxWh)
+WHERE {
+  ?m a sb:Measurement ; sb:measures ?appliance ; sb:producedBy ?sensor ; sb:value ?v .
+}
+GROUP BY ?appliance ?sensor
+ORDER BY ?appliance
